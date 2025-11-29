@@ -1,10 +1,9 @@
 import sys
 
-if len(sys.argv) != 2:
+if len(sys.argv) != 4:
     print("Usage: python labCIE2.py price1 price2 price3")
     sys.exit(1)
-
-    prices = [float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3])]
+prices = [float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3])]
 
 min_price = min(prices)
 max_price = max(prices)
