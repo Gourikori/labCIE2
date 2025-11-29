@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) != 2:
-    print("Usage: python script.py price1 price2 price3")
+    print("Usage: python labCIE2.py price1 price2 price3")
     sys.exit(1)
 
     prices = [float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3])]
